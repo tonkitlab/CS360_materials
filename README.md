@@ -14,7 +14,7 @@ This lab will demonstrate how to deploy simple application on port 8080 by using
 
 1. Launch a t2.micro Amazon Linux 2 instance
 2. Set the security group to have one more inbound rule for HTTP port **8080** from **anywhere** (0.0.0.0/0)ฃ
-3. Running this command to intall git
+3. Running this command to install **git**
 
     ```sh
     sudo yum install git
