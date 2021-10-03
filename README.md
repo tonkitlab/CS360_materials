@@ -1,4 +1,4 @@
-# Automated scription lab 1
+# Automated script lab 1
 
 ## Overview
 
