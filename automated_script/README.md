@@ -1,35 +1,29 @@
-# Automated script lab 1
+# Automated script
 
 ## Overview
 
-This lab will demonstrate how to deploy simple application on port 8080 by using automated script and there are a few manual steps as listed them below
+These all labs will demonstrate how to deploy simple application on port 8080 by using automated script and there are a few manual steps depend on lab that you are doing it.
 
-1. Creating EC2 instance
-2. Setting security group
-3. Installing git in EC2 instance
-4. Changing access permissions of deployment script
-5. Modifying port in index.js file
-
-## Step by step
+## Step by step **(Please do this all steps)**
 
 1. Launch a t2.micro Amazon Linux 2 instance
-2. Set the security group to have one more inbound rule for HTTP port **8080** from **anywhere** (0.0.0.0/0)ฃ
-3. Running this command to install **git**
+2. Set the security group to have one more inbound rule for HTTP port **8080** from **anywhere** (0.0.0.0/0)
+3. Running this command on EC2 instance in order to install **git**
 
     ```sh
     sudo yum install git
     ```
 
-4. Clone this reposity to EC2 instance which is create at step 1 and change to **lab/automated_script_lab_1** branch
-5. Modifying port in **index.js** file from **80** to **8080**
-6. Running this command to change access permissions of deployment script
+4. Running this command in order to change access permissions of preparing script
 
     ```sh
-    chmod 755 deployment_script.sh
+    chmod 755 preparing_script.sh
     ```
 
-7. Running this comamnd to deploy simple application on port 8080
+5. Running this script in order to update system and install npm and nodejs
 
     ```sh
-    ./deployment_script.sh
+    ./preparing_script.sh
     ```
+
+6. Please go to do lab from lab1 to lab5 (hope you are enjoy ^^)
