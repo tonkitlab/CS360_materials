@@ -21,7 +21,7 @@ if ! sudo yum -y --enablerepo=epel install npm; then
 fi
 
 npm install express --save
-sed -i 's/{port_number}/${server_port}/g' index.js
+sed -i "s/{port_number}/$server_port/g" index.js
 node index.js
 
 exit 0
