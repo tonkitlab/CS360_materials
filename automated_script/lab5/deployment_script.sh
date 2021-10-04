@@ -20,8 +20,16 @@ if ! sudo yum -y --enablerepo=epel install npm; then
     error_exit "Cannot install npm."
 fi
 
-npm install express --save
-sed -i "s/{port_number}/$server_port/g" index.js
-node index.js
+if ! npm install express --save; then
+    error_exit "Cannot install express."
+fi
+
+if ! sed -i "s/{port_number}/$server_port/g" index.js; then
+    error_exit "Cannot replace server port in index.js"
+fi
+
+if ! node index.js; then
+    error_exit "Cannot start web server"
+fi
 
 exit 0
