@@ -8,16 +8,20 @@ error_exit()
   exit 1
 }
 
+if [ -z $server_port ]; then
+    error_exit "Please specify server port number. example: ./deployment_script.sh 8080"
+fi
+
 if ! sudo yum -y --enablerepo=epel install nodejs; then
     error_exit "Cannot install nodejs."
-if
+fi
 
 if ! sudo yum -y --enablerepo=epel install npm; then
     error_exit "Cannot install npm."
-if
+fi
 
 npm install express --save
 sed -i 's/{port_number}/${server_port}/g' index.js
 node index.js
 
-return 0
+exit 0
