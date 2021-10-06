@@ -21,6 +21,9 @@ These all labs will demonstrate how to deploy simple application on port 8080 by
     sudo yum install git
     ```
 
-5. Please go to do lab from lab1 to lab5 (hope you are enjoy ^^)
+5. Now you have the server ready for deployment
 
 ## Manual steps
+
+## Automated scripts
+Please go to do lab from lab1 to lab5 (hope you are enjoy ^^)
