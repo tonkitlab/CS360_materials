@@ -27,3 +27,6 @@ These all labs will demonstrate how to deploy simple application on port 8080 by
 
 ## Automated scripts
 Please go to do lab from lab1 to lab5 (hope you are enjoy ^^)
+
+## Test the deployed web application
+Go to https://<your-ec2-instance-ip> in a web browser
