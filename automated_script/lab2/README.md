@@ -10,7 +10,7 @@ This lab will demonstrate how to deploy the simple application on port 8080 by u
     ```sh
     chmod 755 deployment_script.sh
     ```
-2. Run this comamnd to deploy the simple application on port 8080
+2. Run this command to deploy the simple application on port 8080
 
     ```sh
     ./deployment_script.sh
