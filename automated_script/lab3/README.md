@@ -12,7 +12,7 @@ This lab will demonstrate how to deploy simple application on port 8080 by using
     chmod 755 deployment_script3.sh
     ```
 
-2. Running this comamnd to deploy simple application and prompt will show
+2. Running this command to deploy simple application and prompt will show
 
     ```sh
     ./deployment_script3.sh
