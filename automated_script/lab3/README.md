@@ -9,13 +9,13 @@ This lab will demonstrate how to deploy simple application on port 8080 by using
 1. Running this command to change access permissions of deployment script
 
     ```sh
-    chmod 755 deployment_script.sh
+    chmod 755 deployment_script3.sh
     ```
 
 2. Running this comamnd to deploy simple application and prompt will show
 
     ```sh
-    ./deployment_script.sh
+    ./deployment_script3.sh
     ```
 
 3. specific port 8080 on command line and application will run on port 8080
