@@ -4,7 +4,7 @@
 
 These labs will demonstrate how to deploy the simple application on port 8080 by using a variety of automated scripts. Try to understand how each automated script differs from the others.
 
-## Prerequisite steps **(Please do this all steps)**
+## Prerequisite steps **(Please do all these steps)**
 
 1. Launch a t2.micro Amazon Linux 2 instance
 2. Set the security group to have one more inbound rule for HTTP port **8080** from **anywhere** (0.0.0.0/0)
