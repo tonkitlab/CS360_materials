@@ -25,6 +25,24 @@ These labs will demonstrate how to deploy the simple application on port 8080 by
 
 ## Manual steps
 
+1. Run this command on EC2 instance to install **nodejs** and **npm**
+
+    ```sh
+    sudo yum -y --enablerepo=epel install nodejs npm
+    ```
+
+2. Run this command to install **express**
+
+    ```sh
+    npm install express --save
+    ```
+
+3. Run this command to run the simple application on port 8080
+
+    ```sh
+    node index.js
+    ```
+
 ## Automated scripts
 Please do lab1 to lab5 (hope you enjoy ^^)
 
