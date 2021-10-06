@@ -1,4 +1,4 @@
-# Automated script
+# Deployment of a simple Node.js web application
 
 ## Overview
 
@@ -22,3 +22,5 @@ These all labs will demonstrate how to deploy simple application on port 8080 by
     ```
 
 5. Please go to do lab from lab1 to lab5 (hope you are enjoy ^^)
+
+## Manual steps
