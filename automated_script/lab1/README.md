@@ -15,5 +15,5 @@ This lab will demonstrate how to deploy simple application on port 8080 by using
 3. Running this comamnd to deploy simple application on port 8080
 
     ```sh
-    ./deployment_script.sh
+    ./deployment_script1.sh
     ```
