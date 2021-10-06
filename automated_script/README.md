@@ -2,7 +2,7 @@
 
 ## Overview
 
-These all labs will demonstrate how to deploy simple application on port 8080 by using automated script and there are a few manual steps depend on lab that you are doing it.
+These labs will demonstrate how to deploy the simple application on port 8080 by using a variety of automated scripts. Try to understand how each automated script differs from the others.
 
 ## Prerequisite steps **(Please do this all steps)**
 
